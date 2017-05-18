@@ -1,0 +1,8 @@
+prefix=/home/tusimple/catkin_ws/devel
+
+Name: delphi_srr_transformation
+Description: Description of delphi_srr_transformation
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/tusimple/catkin_ws/devel/lib 
+Requires: 

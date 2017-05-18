@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/tusimple/catkin_ws/install/setup.sh
