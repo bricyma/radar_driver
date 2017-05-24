@@ -18,7 +18,6 @@ detect_arr = [RadarDetectionArray()]*4
 
 
 def handler(msg, type):
-    cur_sec = msg.header.stamp.secs
     cur_nsec = msg.header.stamp.nsecs
     global before_nsec
     global detect_arr
@@ -36,6 +35,7 @@ def handler(msg, type):
         detect_arr[type-1].header = msg.header
     detect_arr[type-1].detections.append(detect) 
     before_nsec[type-1] = cur_nsec
+
 
 
 def callback1(msg):
