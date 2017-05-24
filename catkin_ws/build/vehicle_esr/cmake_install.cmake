@@ -1,8 +1,8 @@
-# Install script for directory: /home/tusimple/catkin_ws/src/vehicle_esr
+# Install script for directory: /home/zhibei/workspace/radar_driver/catkin_ws/src/vehicle_esr
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tusimple/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/zhibei/workspace/radar_driver/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tusimple/catkin_ws/build/vehicle_esr/catkin_generated/installspace/vehicle_esr.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/zhibei/workspace/radar_driver/catkin_ws/build/vehicle_esr/catkin_generated/installspace/vehicle_esr.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/vehicle_esr/cmake" TYPE FILE FILES
-    "/home/tusimple/catkin_ws/build/vehicle_esr/catkin_generated/installspace/vehicle_esrConfig.cmake"
-    "/home/tusimple/catkin_ws/build/vehicle_esr/catkin_generated/installspace/vehicle_esrConfig-version.cmake"
+    "/home/zhibei/workspace/radar_driver/catkin_ws/build/vehicle_esr/catkin_generated/installspace/vehicle_esrConfig.cmake"
+    "/home/zhibei/workspace/radar_driver/catkin_ws/build/vehicle_esr/catkin_generated/installspace/vehicle_esrConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/vehicle_esr" TYPE FILE FILES "/home/tusimple/catkin_ws/src/vehicle_esr/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/vehicle_esr" TYPE FILE FILES "/home/zhibei/workspace/radar_driver/catkin_ws/src/vehicle_esr/package.xml")
 endif()
 

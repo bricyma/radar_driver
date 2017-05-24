@@ -1,8 +1,8 @@
-# Install script for directory: /home/tusimple/catkin_ws/src/delphi_srr_transformation
+# Install script for directory: /home/zhibei/workspace/radar_driver/catkin_ws/src/delphi_srr_transformation
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tusimple/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/zhibei/workspace/radar_driver/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tusimple/catkin_ws/build/delphi_srr_transformation/catkin_generated/installspace/delphi_srr_transformation.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/zhibei/workspace/radar_driver/catkin_ws/build/delphi_srr_transformation/catkin_generated/installspace/delphi_srr_transformation.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/delphi_srr_transformation/cmake" TYPE FILE FILES
-    "/home/tusimple/catkin_ws/build/delphi_srr_transformation/catkin_generated/installspace/delphi_srr_transformationConfig.cmake"
-    "/home/tusimple/catkin_ws/build/delphi_srr_transformation/catkin_generated/installspace/delphi_srr_transformationConfig-version.cmake"
+    "/home/zhibei/workspace/radar_driver/catkin_ws/build/delphi_srr_transformation/catkin_generated/installspace/delphi_srr_transformationConfig.cmake"
+    "/home/zhibei/workspace/radar_driver/catkin_ws/build/delphi_srr_transformation/catkin_generated/installspace/delphi_srr_transformationConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/delphi_srr_transformation" TYPE FILE FILES "/home/tusimple/catkin_ws/src/delphi_srr_transformation/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/delphi_srr_transformation" TYPE FILE FILES "/home/zhibei/workspace/radar_driver/catkin_ws/src/delphi_srr_transformation/package.xml")
 endif()
 

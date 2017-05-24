@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/tusimple/catkin_ws/devel/setup.sh
+    local-name: /home/zhibei/workspace/radar_driver/catkin_ws/devel/setup.sh

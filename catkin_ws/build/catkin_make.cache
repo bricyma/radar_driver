@@ -1,2 +1,2 @@
 delphi_srr_transformation:vehicle_esr
--DCATKIN_DEVEL_PREFIX=/home/tusimple/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/tusimple/catkin_ws/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/home/zhibei/workspace/radar_driver/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/zhibei/workspace/radar_driver/catkin_ws/install -G Unix Makefiles

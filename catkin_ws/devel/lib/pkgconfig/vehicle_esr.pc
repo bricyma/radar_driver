@@ -1,8 +1,8 @@
-prefix=/home/tusimple/catkin_ws/devel
+prefix=/home/zhibei/workspace/radar_driver/catkin_ws/devel
 
 Name: vehicle_esr
 Description: Description of vehicle_esr
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/tusimple/catkin_ws/devel/lib 
+Libs: -L/home/zhibei/workspace/radar_driver/catkin_ws/devel/lib 
 Requires: 
