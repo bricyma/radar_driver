@@ -21,7 +21,7 @@ class SrrVisualizer:
 
         self.loop = [0] * 4
         self.srr_translation = [(3.66, 1.02, 0), (3.66, -1.02, 0), (-0.94, 1.05, 0), (-0.94, -1.05, 0)]
-        self.rotation = [ (323.4 +90) * math.pi/180, 38.3 * math.pi/180, (323 - 90 ) * math.pi / 180, (127+90) * math.pi/180]
+        self.rotation = [53.4 * math.pi/180, 38.3 * math.pi/180, 233.7 * math.pi / 180, 217.4 * math.pi/180]
 
     def handler(self, msg, index):
         detections = msg.detections
@@ -38,21 +38,21 @@ class SrrVisualizer:
             marker.ns = "srr"
             marker.action = Marker.ADD
             marker.lifetime = rospy.Duration(0.2)
-
             marker.id = self.loop[index] * 100 + count
             marker.type = Marker.SPHERE
 
             detect_range = detect.position.x
             angle = detect.position.y / 180 * math.pi
+
             lx = detect_range * math.sin(angle)
             ly = detect_range * math.cos(angle)
 
-            # marker.pose.position.x = 100
-            # marker.pose.position.y = 10
+            if index == 1 or index == 2:
+                ly = detect_range * math.sin(angle)
+                lx = detect_range * math.cos(angle)
 
-
-            marker.pose.position.x = lx * math.cos(self.rotation[index]) + ly * math.sin(self.rotation[index]) #+ self.srr_translation[index][0]
-            marker.pose.position.y = -lx * math.sin(self.rotation[index]) + ly * math.cos(self.rotation[index]) # + self.srr_translation[index][1]
+            marker.pose.position.x = lx * math.cos(self.rotation[index]) + ly * math.sin(self.rotation[index]) + self.srr_translation[index][0]
+            marker.pose.position.y = -lx * math.sin(self.rotation[index]) + ly * math.cos(self.rotation[index])  + self.srr_translation[index][1]
             marker.pose.position.z = 0
 
             delta = 0.02
